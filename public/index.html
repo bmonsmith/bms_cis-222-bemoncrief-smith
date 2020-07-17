@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+  <head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1.0"/>   
+  <title>Hangman game</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/hglogo.png">
+   <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body  onload="startGame()">
+    <a href="upfile.html">uplode save date</a>
+    <div class="wrapper">
+   <h1>Hangman</h1>
+
+    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+</div>
+<div class="wrapper">
+    <div id="buttons">
+    </div>  
+    <p id="catagoryName"></p>
+    <div id="hold">
+    </div>
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    <div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+</div>   
+        <script src="ScriptHangman.js"></script>
+  </body>
+</html>
